@@ -24,7 +24,7 @@
   align-items: center;
   /* padding: 40px 120px; */
   height: 100px;
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -74,7 +74,7 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 100px;
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 0px;
   background: #ffff;
@@ -97,7 +97,7 @@
   font-weight: 600;
 }
 
-.goat {
+.special-style {
   font-family: Work Sans;
   font-size: 6rem;
   font-weight: 800;
@@ -108,8 +108,9 @@
 }
 
 .banner-btn {
-  padding-top: 20px;
-  text-align: justify;
+  display: flex;
+  padding-top: 10px;
+  gap: 5px;
 }
 
 .btn-1 {
@@ -117,7 +118,7 @@
   border-radius: 48px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   border: none;
-  padding: 20px 40px;
+  padding: 10px 20px;
 }
 
 .btn-2 {
@@ -125,7 +126,7 @@
   border-radius: 48px;
   background: #4ec5f7;
   border: none;
-  padding: 20px 40px;
+  padding: 20px;
 }
 
 .banner-image {
@@ -137,6 +138,48 @@
   height: 100%;
 }
 /*  style for online games */
+
+.online-games {
+  width: 80%;
+  margin: 0 auto;
+  /* margin: 100px; */
+}
+
+.online-games-content {
+  width: 100%;
+  text-align: center;
+}
+
+.online-game-title {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.special-style-online-game {
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-game-img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.figure {
+  width: 100%;
+  height: 80%;
+}
 
 /* media query */
 @media screen and (max-width: 425px) {
@@ -159,10 +202,13 @@
 
   .banner-container {
     flex-direction: column-reverse;
-    margin: 200px 0px;
+    margin-top: 200px;
   }
-  .banner-content,
-  .banner-image {
+  .banner-content {
+    width: 100%;
+  }
+
+  .banner-image img {
     width: 100%;
   }
 
@@ -171,7 +217,7 @@
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
   .banner-container {
     gap: 0px;
@@ -179,5 +225,9 @@
 
   .btn-2 {
     margin-top: 5px;
+  }
+
+  .online-game-img {
+    flex-direction: column;
   }
 }
