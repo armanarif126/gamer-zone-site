@@ -181,6 +181,56 @@
   height: 80%;
 }
 
+/* styles for Play Games Online Anywhere, Anytime! section */
+
+.play-gam-online-container {
+  display: flex;
+  width: 80%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.play-game-online-section-img {
+  width: 50%;
+  height: 100%;
+}
+
+.play-game-img-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.play-game-img-2 {
+  position: relative;
+  left: 350px;
+  bottom: 150px;
+  width: 40%;
+}
+.play-game-online-section-content {
+  width: 50%;
+  padding-bottom: 150px;
+}
+
+.play-game-title {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.play-game-description {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
 /* media query */
 @media screen and (max-width: 425px) {
   .nav-bar-container {
@@ -217,7 +267,7 @@
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
   }
   .banner-container {
     gap: 0px;
@@ -230,4 +280,41 @@
   .online-game-img {
     flex-direction: column;
   }
+
+  .special-style {
+    font-size: 3.5rem;
+  }
+
+  .play-gam-online-container{
+    flex-direction: column-reverse;
+  }
+  .play-gam-online-container {
+   
+    width: 100%;
+    gap:0px;
+    margin-top: 20px;
+    /* margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px; */ */
+  }
+  .play-game-online-section-img {
+    width: 70%;
+    height: 100%;
+  }
+  .play-game-img-2 {
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    width: 40%;
+  }
+
+  .play-game-online-section-content {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+  
+
 }
