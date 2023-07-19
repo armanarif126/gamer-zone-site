@@ -175,14 +175,13 @@
   padding-top: 30px;
 }
 
-.online-game-img:hover + {
+.online-game-img figure:hover{
   border-radius: 16px;
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.6) 0%,
       rgba(0, 0, 0, 0.6) 100%
-    ),
-    url(<path-to-image>), lightgray 50% / cover no-repeat;
+    ), lightgray 50% / cover no-repeat;
 }
 
 .figure {
